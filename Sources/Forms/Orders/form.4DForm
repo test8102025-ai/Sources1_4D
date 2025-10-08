@@ -1,0 +1,47 @@
+{
+  "$4d": {
+    "version": "1",
+    "kind": "form"
+  },
+  "events": [
+    "onLoad",
+    "onClick"
+  ],
+  "pages": [
+    {
+      "objects": {}
+    },
+    {
+      "objects": {
+        "Load": {
+          "type": "button",
+          "method": "ObjectMethods/Load.4dm",
+          "events": [
+            "onClick"
+          ]
+        },
+        "AddLine": {
+          "type": "button",
+          "method": "ObjectMethods/AddLine.4dm",
+          "events": [
+            "onClick"
+          ]
+        },
+        "Save": {
+          "type": "button",
+          "method": "ObjectMethods/Save.4dm",
+          "events": [
+            "onClick"
+          ]
+        },
+        "WParea": {
+          "type": "write",
+          "method": "ObjectMethods/WParea.4dm",
+          "events": [
+            "onAfterEdit"
+          ]
+        }
+      }
+    }
+  ]
+}

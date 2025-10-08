@@ -1,0 +1,33 @@
+{
+  "$4d": {
+    "version": "1",
+    "kind": "form"
+  },
+  "events": [
+    "onLoad",
+    "onClick"
+  ],
+  "pages": [
+    {
+      "objects": {}
+    },
+    {
+      "objects": {
+        "Ghost": {
+          "type": "button",
+          "method": "ObjectMethods/Ghost.4dm",
+          "events": [
+            "onClick"
+          ]
+        },
+        "Placeholder": {
+          "type": "button",
+          "method": "ObjectMethods/Placeholder.4dm",
+          "events": [
+            "onClick"
+          ]
+        }
+      }
+    }
+  ]
+}
